@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacte</title>
+     <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <style>
+            .header-area{
+            background-color: black;
+             position: fixed;
+            }
+            .navbar-brand img{
+             margin-top: -20px;
+            width: 150px;
+            }
+
+            /*-------------carre de contact----------*/
+.contact-box{
+
+min-height: 400px;
+margin: 15%;
+border-radius: 5px;
+box-shadow: rgb(131, 130, 130) -1px 1px 8px 0px;
+background-color: rgba(240, 248, 255, 0.581);
+
+
+}
+/*-----------les mots CONTACT US-----------*/
+.contact-box h1{
+
+margin-left: 35%;
+margin-top: 2%;
+font-weight: bolder;
+font-size: 50px;
+}
+
+/*------------carre des input-------------*/
+.info-entrer{
+margin-top: 8%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+
+}
+
+.info-entrer input{
+border: 0;
+width: 400px;
+height: 35px;
+font-family:Goudy Bookletter 1911, sans-serif;
+font-size: 13px;
+color: rgb(42, 41, 41);
+
+background-color: rgba(0, 255, 255, 0);
+border-bottom:solid black 1px ;
+}
+.info-entrer input:focus{
+outline: none;
+background-color: rgba(250, 235, 215, 0);
+}
+
+.info-entrer p{
+
+font-family:Goudy Bookletter 1911, sans-serif;
+font-size: 13px;
+color: black;
+text-shadow: white 1px 1px 1px;
+
+}
+
+/*---------submit botton----------*/
+.envoi-info{
+margin-left: 80%;
+margin-top: 3%;
+width: 15%;
+text-align: center;
+border-radius: 5px;
+box-shadow: rgb(101, 100, 100) -1px 1px 8px 0px;
+background-color:rgb(221, 219, 219) ;
+padding: 10px;
+}
+.envoi-info:hover{
+color:white;
+box-shadow: rgb(221, 219, 219)  -1px 1px 8px 0px;
+background-color:rgb(101, 100, 100);
+}
+
+@media screen and (max-width: 400px){
+.body-contact{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-box{
+
+        height: 400px;
+        margin: 15% 0% 0% 0% ;
+        border-radius: 5px;
+        box-shadow: rgb(131, 130, 130) -1px 1px 8px 0px;
+        background-color: rgba(240, 248, 255, 0.581);
+   
+   }
+
+   .contact-box h1{
+    margin-left: 10%;
+    width: 90%;
+  
+    }
+
+    .info-entrer input{
+
+        width: 300px;
+    }
+    
+
+    .envoi-info{
+
+        width: 25%;
+        margin-left: 70%;
+        margin-top: 10%;
+    }
+}
+        </style>
+        
+</head>
+<body class="body-contact">
+     <!-- top-area Start -->
+     <div class="top-area">
+        <div class="header-area">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+                <div class="container">
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="image_cars/logo.png" alt="LOGOCAR"/></a>
+
+                    </div><!--/.navbar-header-->
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li ><a href="index.html" target="_blank">home</a></li>
+                            <li><a href="featuedCars.html" target="_blank">featured cars</a></li>
+                            <li><a href="service.html" target="_blank">service</a></li>
+                            <li ><a href="index.html" target="_blank">new cars</a></li>
+                            <li ><a href="index.html" target="_blank">brands</a></li>
+                        </ul><!--/.nav -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
+            <!-- End Navigation -->
+        </div><!--/.header-area-->
+        <div class="clearfix"></div>
+
+    </div><!-- /.top-area-->
+    <!-- top-area End -->
+
+    <!--send message barre-->
+		<div class="contact-box">
+            <h1>CONTACT US</h1>
+
+<form>
+    <div class="info-entrer">
+            <p>Nom&prenom</p>
+              <input type="text" required/>
+            <p>Email</p>
+            <input type="email" required/>
+            <p>Message</p>
+            <input type="text" required/>
+    </div>
+
+            <div class="envoi-info">
+                <button type="submit">submit</button>
+                <span>-></span>
+              </div>
+</form>
+
+</div>
+
+<!--contact start-->
+<footer id="contact"  class="contact">
+    <div class="container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">carvilla</a>
+                        </div>
+                        <p>
+                            Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <div class="footer-contact">
+                            <p>info@themesine.com</p>
+                            <p>+1 (885) 2563154554</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h2>about devloon</h2>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">career</a></li>
+                            <li><a href="#">terms <span> of service</span></a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="single-footer-widget">
+                        <h2>top brands</h2>
+                        <div class="row">
+                            <div class="col-md-7 col-xs-6">
+                                <ul>
+                                    <li><a href="#">BMW</a></li>
+                                    <li><a href="#">lamborghini</a></li>
+                                    <li><a href="#">camaro</a></li>
+                                    <li><a href="#">audi</a></li>
+                                    <li><a href="#">infiniti</a></li>
+                                    <li><a href="#">nissan</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5 col-xs-6">
+                                <ul>
+                                    <li><a href="#">ferrari</a></li>
+                                    <li><a href="#">porsche</a></li>
+                                    <li><a href="#">land rover</a></li>
+                                    <li><a href="#">aston martin</a></li>
+                                    <li><a href="#">mersedes</a></li>
+                                    <li><a href="#">opel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-offset-1 col-md-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h2>news letter</h2>
+                        <div class="footer-newsletter">
+                            <p>
+                                Subscribe to get latest news  update and informations
+                            </p>
+                        </div>
+                        <div class="hm-foot-email">
+                            <div class="foot-email-box">
+                                <input type="text" class="form-control" placeholder="Add Email">
+                            </div><!--/.foot-email-box-->
+                            <div class="foot-email-subscribe">
+                                <span><i class="fa fa-arrow-right"></i></span>
+                            </div><!--/.foot-email-icon-->
+                        </div><!--/.hm-foot-email-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>
+                        &copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
+                    </p><!--/p-->
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>	
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>	
+                    </div>
+                </div>
+            </div>
+        </div><!--/.footer-copyright-->
+    </div><!--/.container-->
+
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+        </div>
+        
+    </div><!--/.scroll-Top-->
+    
+</footer><!--/.contact-->
+<!--contact end-->
+
+
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+</body>
+</html>
